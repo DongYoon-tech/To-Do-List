@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+
+
+body {
+    background-image: linear-gradient(to bottom right, teal, pink);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 100px;
+    font-family: Comic Neue;
+    text-align: center;
+    position: relative;
+    min-height: 67vh;
+    
+    }
+
+#container {
+    text-align: center;
+    width: 700px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: 15%;
+    box-shadow: 0 5px 30px rgb(255, 255, 254);
+    padding: 10px;
+    
+    position: relative;
+    
+}
+ul li{
+    text-align: left;
+    font-size: 25px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+ul li button {
+    border: none;  
+    position: absolute;
+    right: 50px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+input[type="checkbox"]{
+    position: absolute;
+    border:none;
+    right: 80px;
+    height: 23px;
+    width: 18px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+}
